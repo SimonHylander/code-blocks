@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import { BlockListSkeleton } from "../block-list-skeleton";
-import BlockEditor from "../block-editor";
 
 import { blockQuery } from "@repo/web/server/data/block/block.query";
 import { redirect } from "next/navigation";

@@ -17,12 +17,5 @@
       "cache": false,
       "persistent": true
     }
-  },
-  "pipeline": {
-    "web#build": {
-      "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [".next/**", "!.next/cache/**"]
-    }
   }
 }

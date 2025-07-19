@@ -191,6 +191,7 @@ function Snippet({ snippet }: { snippet: SnippetDTO }) {
           <TooltipTrigger asChild>
             <Button
               variant="ghost"
+              aria-label="Expand snippet"
               onClick={() => setSnippetDialog({ isOpen: true, snippet })}
               className="cursor-pointer hover:bg-indigo-800"
             >

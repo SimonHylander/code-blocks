@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+
+# Turbo
+.turbo
+
+# Misc
+.DS_Store
+*.pem
+
+# dependencies
+apps/web/node_modules
+
+# next.js
+apps/web/.next/
+apps/web/out/
+
+# production
+apps/web/build
+
+
+# env files (can opt-in for commiting if needed)
+apps/web/.env*
+
+# vercel
+apps/web/.vercel
+
+# typescript
+apps/web/*.tsbuildinfo
+apps/web/next-env.d.ts
